@@ -1,6 +1,8 @@
 %Run this code to determine 2x2 contigency table X
-%comapreGreyWhiteAll
-x=[9 13; 20 2];
+compareGrayWhiteAll
+
+%Or just use this 2x2 table
+%x=[9 13; 20 2];
 [h pFisher]=fishertest(x)
 
 frac=x(:,1)/sum(x(1,:));

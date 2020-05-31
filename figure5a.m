@@ -1,3 +1,6 @@
+%Comment this line out to run faster
+calcRmseContactsAll
+
 %dataMontage.mat is created by "calcRmseContactsAll.m"
 load dataMontage class classBipolar rmseRefAll rmseBipolarAll rmseLaplaceAll
 numNoise=sum(class>=0 & isnan(rmseRefAll))
